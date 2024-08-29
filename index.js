@@ -50,8 +50,10 @@ function KareninAlani(kenaruzunlugu) {
 	4. Hesaplanan çemberin çevresi döndürülecektir.
 */
 
-function CemberinCevresi(/* kodlar buraya */) {
-  /* kodlar buraya */
+function CemberinCevresi(yaricap,pi) {
+  let cevre =2*pi*yaricap;
+  return cevre ;
+
 }
 
 /* (Oto test yok) Yukarıdaki CemberinCevresi fonksiyonunu yarıçap = 5 vererek aşağıda çalıştırıp, sonucu konsolda gözlemleyin (console.log)  */
@@ -65,8 +67,9 @@ function CemberinCevresi(/* kodlar buraya */) {
 */
 
 function CemberinAlani(yaricap,pi) {
+ 
   let CemberinAlani =pi *Math.pow(yaricap,2);
-  console.log(CemberinAlani);
+  return CemberinAlani;
 }
 
 /* (Oto test yok) Yukarıdaki CemberinAlani fonksiyonunu yarıçap = 15 vererek aşağıda çalıştırıp, sonucu konsolda gözlemleyin (console.log)  */
@@ -127,6 +130,7 @@ let ucetambolunenler,
 function sa() {
   console.log("Kodlar çalışıyor");
   return "as";
+  
 }
 sa();
 module.exports = {
